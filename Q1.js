@@ -1,6 +1,9 @@
 let L = Number(prompt("Enter L:"));
 let R = Number(prompt("Enter R:"));
 let K = Number(prompt("Enter K:"));
+if (isNaN(L) || isNaN(R) || isNaN(K)) {
+    alert("Please enter valid numbers only!");
+}
 let count = 0;
 for (let x = L; x <= R; x++) {
 if (x % K !== 0) continue;
