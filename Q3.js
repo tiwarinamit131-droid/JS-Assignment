@@ -1,5 +1,5 @@
-let N = parseInt(prompt("Enter N:"));
-let K = parseInt(prompt("Enter K:"));
+let N = Number(prompt("Enter N:"));
+let K = Number(prompt("Enter K:"));
 let answer = -1;
 for (let X = 0; X <= 100000; X++) {
     let num = N + X;

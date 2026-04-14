@@ -1,5 +1,5 @@
-let N = parseInt(prompt("Enter N:"));
-let seed = parseInt(prompt("Enter seed:"));
+let N = Number(prompt("Enter N:"));
+let seed = Number(prompt("Enter seed:"));
 let m = 0;
 let sum = 0;
 let skip = seed + 2;

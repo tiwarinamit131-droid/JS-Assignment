@@ -1,7 +1,7 @@
-let base = parseInt(prompt("Enter base:"));
-let distance = parseInt(prompt("Enter distance:"));
-let minutesLate = parseInt(prompt("Enter minutesLate:"));
-let seed = parseInt(prompt("Enter seed:"));
+let base = Number(prompt("Enter base:"));
+let distance = Number(prompt("Enter distance:"));
+let minutesLate = Number(prompt("Enter minutesLate:"));
+let seed = Number(prompt("Enter seed:"));
 let fare = base + 7 * distance;
 if (minutesLate > 15) {
     fare += 20;

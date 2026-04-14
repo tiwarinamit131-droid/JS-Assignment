@@ -1,6 +1,6 @@
-let a = parseInt(prompt("Enter correct answers:"));
-let b = parseInt(prompt("Enter partial answers:"));
-let c = parseInt(prompt("Enter wrong answers:"));
+let a = Number(prompt("Enter correct answers:"));
+let b = Number(prompt("Enter partial answers:"));
+let c = Number(prompt("Enter wrong answers:"));
 let score = 3 * a + b - 2 * c;
 if (score < 0) {
     score = 0;

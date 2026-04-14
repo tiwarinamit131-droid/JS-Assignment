@@ -1,5 +1,5 @@
-let N = parseInt(prompt("Enter N:"));
-let seed = parseInt(prompt("Enter seed:"));
+let N = Number(prompt("Enter N:"));
+let seed = Number(prompt("Enter seed:"));
 let current = N;
 for (let i = 0; i < 3; i++) {
     if (current % 2 === 0) {

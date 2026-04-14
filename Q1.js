@@ -1,6 +1,6 @@
-let L = parseInt(prompt("Enter L:"));
-let R = parseInt(prompt("Enter R:"));
-let K = parseInt(prompt("Enter K:"));
+let L = Number(prompt("Enter L:"));
+let R = Number(prompt("Enter R:"));
+let K = Number(prompt("Enter K:"));
 let count = 0;
 for (let x = L; x <= R; x++) {
 if (x % K !== 0) continue;
